@@ -8,6 +8,7 @@ gemspec
 
 gem "pry-byebug"
 gem "puma"
+gem "rspec-rails", "~> 6.0"
 gem "rubocop-performance"
 gem "rubocop-rails"
 gem "rubocop-rspec"
