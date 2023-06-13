@@ -1,5 +1,5 @@
 PATH
-  remote: .
+  remote: ..
   specs:
     cohousing (0.1.0)
       rails (>= 6.1.0)
@@ -225,6 +225,7 @@ DEPENDENCIES
   cohousing!
   pry-byebug
   puma
+  rails (~> 7.0)
   rspec-rails (~> 6.0)
   rubocop-performance
   rubocop-rails
@@ -232,4 +233,4 @@ DEPENDENCIES
   sqlite3
 
 BUNDLED WITH
-   2.4.13
+   2.4.14
