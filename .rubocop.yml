@@ -127,11 +127,9 @@ Style/Documentation:
 Style/EndlessMethod:
   Enabled: false
 
-Style/TrailingBodyOnMethodDefinition:
-  Enabled: false
-
-Style/TrailingMethodEndStatement:
-  Enabled: false
+Style/FrozenStringLiteralComment:
+  Enabled: true
+  SafeAutoCorrect: true
 
 Style/GuardClause:
   Enabled: false
@@ -163,8 +161,14 @@ Style/StringLiterals:
 Style/StringLiteralsInInterpolation:
   EnforcedStyle: double_quotes
 
+Style/TrailingBodyOnMethodDefinition:
+  Enabled: false
+
 Style/TrailingCommaInArrayLiteral:
   EnforcedStyleForMultiline: consistent_comma
 
 Style/TrailingCommaInHashLiteral:
   EnforcedStyleForMultiline: consistent_comma
+
+Style/TrailingMethodEndStatement:
+  Enabled: false
