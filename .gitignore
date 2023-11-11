@@ -9,3 +9,8 @@
 /spec/dummy/log/*.log
 /spec/dummy/storage/
 /spec/dummy/tmp/
+
+# Ignore IRB and Pry history and Pry config
+.irb_history
+.pry_history
+.pryrc
