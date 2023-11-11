@@ -11,7 +11,6 @@ group :development, :test do
   # Once V3 has been released, we can upgrade to that
   gem "appraisal", github: "thoughtbot/appraisal", branch: "main"
   gem "pry-byebug"
-  gem "puma"
   gem "rspec-rails", "~> 6.0"
   gem "sqlite3"
 end
