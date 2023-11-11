@@ -7,7 +7,9 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 gemspec
 
 group :development, :test do
-  gem "appraisal"
+  # Appraisal V2.x is not compatible with Ruby 3.2
+  # Once V3 has been released, we can upgrade to that
+  gem "appraisal", github: "thoughtbot/appraisal", branch: "main"
   gem "pry-byebug"
   gem "puma"
   gem "rspec-rails", "~> 6.0"
